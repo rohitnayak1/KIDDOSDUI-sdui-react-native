@@ -1,0 +1,34 @@
+{
+  "back_to_school": {
+    "theme": {
+      "primary": "#0057FF",
+      "background": "#FFE500"
+    },
+    "overlay": {
+      "type": "FULL_SCREEN_OVERLAY",
+      "animation_url": ""
+    }
+  },
+
+  "summer_playhouse": {
+    "theme": {
+      "primary": "#00AEEF",
+      "background": "#D9F7FF"
+    },
+    "overlay": {
+      "type": "FULL_SCREEN_OVERLAY",
+      "animation_url": ""
+    }
+  },
+
+  "mystery_gift": {
+    "theme": {
+      "primary": "#FF2222",
+      "background": "#FFF0F0"
+    },
+    "overlay": {
+      "type": "FULL_SCREEN_OVERLAY",
+      "animation_url": ""
+    }
+  }
+}

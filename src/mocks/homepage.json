@@ -1,0 +1,91 @@
+{
+  "theme": {
+    "primary": "#FF9933",
+    "background": "#FFF5E6"
+  },
+
+  "components": [
+    {
+      "id": "banner1",
+      "type": "BANNER_HERO",
+      "title": "Mega Kids Sale",
+      "image": "https://picsum.photos/800/300",
+      "action": {
+        "type": "DEEP_LINK",
+        "payload": {
+          "url": "/sale"
+        }
+      }
+    },
+
+    {
+      "id": "collection1",
+      "type": "DYNAMIC_COLLECTION",
+      "title": "Snacks Under ₹99",
+
+      "products": [
+        {
+          "id": "1",
+          "name": "Cookies",
+          "image": "https://picsum.photos/200",
+          "price": 89
+        },
+        {
+          "id": "2",
+          "name": "Chips",
+          "image": "https://picsum.photos/201",
+          "price": 59
+        },
+        {
+          "id": "3",
+          "name": "Juice",
+          "image": "https://picsum.photos/202",
+          "price": 49
+        },
+        {
+          "id": "4",
+          "name": "Milk Shake",
+          "image": "https://picsum.photos/203",
+          "price": 79
+        }
+      ]
+    },
+
+    {
+      "id": "grid1",
+      "type": "PRODUCT_GRID_2X2",
+
+      "products": [
+        {
+          "id": "11",
+          "name": "Toy Car",
+          "image": "https://picsum.photos/204",
+          "price": 299
+        },
+        {
+          "id": "12",
+          "name": "School Bag",
+          "image": "https://picsum.photos/205",
+          "price": 499
+        },
+        {
+          "id": "13",
+          "name": "Lunch Box",
+          "image": "https://picsum.photos/206",
+          "price": 249
+        },
+        {
+          "id": "14",
+          "name": "Water Bottle",
+          "image": "https://picsum.photos/207",
+          "price": 199
+        }
+      ]
+    },
+
+    {
+      "id": "unknown1",
+      "type": "NEW_COMPONENT_V2"
+    }
+  ]
+}
